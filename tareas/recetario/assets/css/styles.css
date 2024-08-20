@@ -1,0 +1,182 @@
+/* --- Inportando tipo de letra desde google fonts ---*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Work+Sans:wght@200&display=swap');
+/* --- Body ---*/
+body{
+    color: rgb(0, 0, 0);
+    font-family: "Epilogue", sans-serif ;
+}
+/* --- Container ---*/
+.container{
+    margin: 10px;
+}
+/* --- Titulo ---*/
+.container .header .title h1{
+text-align: center;
+}
+
+/* --- Imagen Container ---*/
+.container .header .img-container{
+  background-image:  url(../images/omelette.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65vh;
+  border-radius: 20px;
+}
+
+    /* --- Main Container ---*/
+.container .main-container .main-text-container{
+height: 10vh;
+padding-top: 2rem;
+}
+/* --- Preparation time ---*/
+.container .main-container .preparation-time{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 2rem;  
+    align-items: center;
+    
+}
+
+/* --- Card ---*/
+.container .main-container .preparation-time .card{
+    background-color: #f5f2f0;
+    padding: 2rem;
+    border-radius: 10px;
+    font-size: 2em;
+}
+/* --- Ingredients ---*/
+.container .main-container .ingredients{
+    padding-top: 2rem;
+}
+.container .main-container .ingredients li{
+    list-style-type: none;
+    line-height: 3em;
+    color: rgb(90, 88, 88);
+    font-size: 1em;
+}
+
+.container .main-container .ingredients .ingredients-notes {
+    font-size: 0.8em;
+    color: #777;
+    display: block;
+    line-height: 2em;
+}
+/* --- Instructions ---*/
+.container .main-container .instructions li{
+    list-style-type: none;
+    line-height: 4em;
+    color: rgb(90, 88, 88);
+    font-size: 1em;
+}
+/* --- nutrition Facts ---*/
+.container .main-container .nutrition-facts li{
+    list-style-type: none;
+    line-height: 4em;
+    color: rgb(90, 88, 88);
+    font-size: 1em;
+}
+
+/* --- Footer ---*/
+
+.container .footer{
+    text-align: center;
+    background-color: #f5f2f0;
+    height: 10vh;
+    padding-top: 1.5rem;
+}
+.container .footer h4{
+    font-size: 1.3em;
+}
+/*Medias querys (estilos para tables 1024px responsive)*/
+@media(max-width: 1024px){
+    .container .header .img-container{
+        background-image:  url(../images/omelette.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 26vh;
+        border-radius: 20px;
+      }
+}
+
+/*Medias querys (estilos para tables 820 px responsive)*/
+@media(max-width: 820px){
+    .container .header .img-container{
+        background-image:  url(../images/omelette.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 24vh;
+        border-radius: 20px;
+      }
+}
+/*Medias querys (estilos para tables 768px responsive)*/
+@media(max-width: 768px){
+    .container .header .img-container{
+        background-image:  url(../images/omelette.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 25vh;
+        border-radius: 20px;
+      }
+}
+
+/*Medias querys (estilos para celulares de 750px a 530px responsive)*/
+@media(min-width: 530px) and (max-width: 750px){
+    .container .header .img-container{
+        background-image:  url(../images/omelette.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 30vh;
+        border-radius: 10px;
+      }
+
+      .container{
+        margin: 5px;
+    }
+
+    
+.container .main-container .preparation-time{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 1rem;
+    align-items: center;
+    
+}
+ 
+}
+
+/*Medias querys (estilos para celulares 529 px a 310px responsive)*/
+@media(min-width: 310px) and (max-width: 529px){
+    .container .header .img-container{
+        background-image:  url(../images/omelette.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 16vh;
+        border-radius: 10px;
+      }
+
+      .container{
+        margin: 5px;
+    }
+    
+
+    .container .main-container .preparation-time{
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+    }
+
+    .container .main-container .preparation-time .card{
+        margin-top: 2vh;
+        background-color: #f5f2f0;
+        border-radius: 10px;
+        padding: 2rem;
+    }
+}

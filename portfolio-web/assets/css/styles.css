@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: #39445899 !important;
+    font-family: "Edu+VIC+WA+NT+Beginner", Rubik !important;
+}
+.btn{
+   background-color: green !important;
+   color: white !important;
+   transition: 0.5s;
+}
+
+.btn:hover{
+   color: black !important;
+   font-weight: 800;
+   box-shadow: 1px 2px 3px goldenrod !important;
+   transition: 0.5s;
+}
+ /*Header Sections*/
+
+ .header .navbar .logo h2{
+    font-size: 2.5em !important;
+ }
+
+ .header .navbar .logo h2 span{
+    color: blue !important;
+    text-shadow: 1px 1px 3px white;
+ }
+ .header .navbar .menu-navbar{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ }
+
+ .header .navbar .menu-navbar a{
+    text-decoration: none;
+    color: white;
+ }
+
+
+  /*Main Section*/
+
+  .main-content{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 2rem;
+    align-items: center;
+  }
+.main-content .img-container img{
+    width: 30vw;
+}
