@@ -166,6 +166,11 @@ padding-top: 2rem;
         margin: 5px;
     }
     
+    .container .main-container .main-text-container{
+        height: 10vh;
+        padding-top: 2rem;
+        text-align: center;
+        }
 
     .container .main-container .preparation-time{
         margin: 0 auto;
@@ -176,7 +181,24 @@ padding-top: 2rem;
     .container .main-container .preparation-time .card{
         margin-top: 2vh;
         background-color: #f5f2f0;
-        border-radius: 10px;
         padding: 2rem;
+        border-radius: 10px;
+        font-size: 2em;
+    }
+
+    .container .main-container .ingredients h2, 
+    .instructions h2, 
+    .nutrition-facts h2 {
+        text-align: center;
+    }
+
+    .container .footer{
+        text-align: center;
+        background-color: #f5f2f0;
+        height: 10vh;
+        padding-top: 0.1rem;
+    }
+    .container .footer h4{
+        font-size: 1em;
     }
 }
